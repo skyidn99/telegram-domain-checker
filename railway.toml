@@ -1,0 +1,10 @@
+python_version = "3.11"
+
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python src/main.py"
+
+[env]
+PYTHONPATH = "."
