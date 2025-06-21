@@ -2,8 +2,6 @@ python_version = "3.11"
 
 [build]
 builder = "nixpacks"
-
-[build]
 startCommand = "python main.py"
 
 [env]
