@@ -12,4 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY src/ ./
 
 # Perintah untuk menjalankan aplikasi Anda
-CMD ["python", "main.py"]
+CMD ["python", "/app/main.py"]
+
