@@ -2,7 +2,7 @@
   "build": {
     "builder": "NIXPACKS",
     "buildCommand": "",
-    "startCommand": "python src/main.py",
+    "startCommand": "python main.py",
     "rootDirectory": "src"
   }
 }
